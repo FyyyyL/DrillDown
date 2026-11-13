@@ -1,0 +1,70 @@
+[
+  {
+    "name": "fred_baa_txt.txt",
+    "url": "https://fred.stlouisfed.org/data/BAA10Y.txt",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.45
+  },
+  {
+    "name": "fred_baa_csv2.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?cosd=2026-10-01&coed=2026-10-23&id=BAA10Y",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.46
+  },
+  {
+    "name": "alfred_baa.html",
+    "url": "https://alfred.stlouisfed.org/series?seid=BAA10Y&vintage_date=2026-10-21",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.15
+  },
+  {
+    "name": "alfred_baa_download.csv",
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA10Y&cosd=2026-10-01&coed=2026-10-23",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.16
+  },
+  {
+    "name": "jodi_2026.csv",
+    "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 7699910,
+    "content_type": "application/octet-stream",
+    "sha256": "6967657d591f607d3d499b2fa099f1694b0b441729f4068eb3627ce4dba9d11d",
+    "seconds": 7.5
+  },
+  {
+    "name": "sg_local_metadata.json",
+    "url": "https://api-production.data.gov.sg/v2/public/api/datasets/d_cd6aa1f04c5b371af6229049b255ebfe/metadata",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 143969,
+    "content_type": "application/json",
+    "sha256": "900c517813a79499936e50632b2fec61156aae49d5b86bd1962259b7976236e8",
+    "seconds": 5.38
+  },
+  {
+    "name": "sg_reexports_metadata.json",
+    "url": "https://api-production.data.gov.sg/v2/public/api/datasets/d_ccaae92652c42740829ab17013a698c2/metadata",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 143972,
+    "content_type": "application/json",
+    "sha256": "e64904cdd149163c3d5a2e3fe650772b1693c62af9906d9e3a5a94d77ec85ac6",
+    "seconds": 4.55
+  },
+  {
+    "name": "sg_bunker_metadata.json",
+    "url": "https://api-production.data.gov.sg/v2/public/api/datasets/d_89d2874dad74a273270369334f1e7d28/metadata",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 1036,
+    "content_type": "application/json",
+    "sha256": "c48d34ddc806adf03e1336c2e8efeb62cb268c29c02dc22c4301fc414903f930",
+    "seconds": 4.4
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "datasetId": "d_72143a0db0e53efcde53308edf487364",
+  "name": "Index Of Industrial Production (2019 = 100), Monthly, Seasonally Adjusted",
+  "description": "Source: SINGAPORE DEPARTMENT OF STATISTICS\r\n\r\nFootnotes: The industries are classified according to Singapore Standard Industrial Classification (SSIC) 2020.\r\n\r\nAdapted from: https://tablebuilder.singstat.gov.sg/table/TS/M355272",
+  "lastUpdatedAt": "2026-01-26T00:00:00+08:00",
+  "coverageStart": "1983-01-01T08:00:00+08:00",
+  "coverageEnd": "2025-12-01T08:00:00+08:00"
+}

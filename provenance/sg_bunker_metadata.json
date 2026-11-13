@@ -1,0 +1,8 @@
+{
+  "datasetId": "d_89d2874dad74a273270369334f1e7d28",
+  "name": "Bunker Sales Total, Monthly",
+  "description": "Dataset shows the monthly total bunker sales in tonnes. (Latest month figures are preliminary estimates.)",
+  "lastUpdatedAt": "2026-10-21T10:22:48+08:00",
+  "coverageStart": "1995-01-01T08:00:00+08:00",
+  "coverageEnd": "2026-09-01T08:00:00+08:00"
+}

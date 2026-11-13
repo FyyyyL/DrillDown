@@ -1,0 +1,8 @@
+{
+  "datasetId": "d_ccaae92652c42740829ab17013a698c2",
+  "name": "Re-Exports By Commodity Division, Monthly",
+  "description": "Source: ENTERPRISE SINGAPORE\r\n\r\nFootnotes: Prior to 2003, merchandise trade data exclude Singapore's merchandise trade with Indonesia.  Data prior to 1999 are based on Standard International Trade Classification (SITC) 3.  Data from 1999 onwards are based on SITC 4.1 and consistent with the ASEAN Harmonised Tariff Nomenclature (AHTN) 2022 version.\r\n\r\nAdapted from: https://tablebuilder.singstat.gov.sg/table/TS/M451091",
+  "lastUpdatedAt": "2026-10-10T20:00:43+08:00",
+  "coverageStart": "1976-01-01T08:00:00+08:00",
+  "coverageEnd": "2026-08-01T08:00:00+08:00"
+}

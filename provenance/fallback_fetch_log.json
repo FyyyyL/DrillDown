@@ -1,0 +1,52 @@
+[
+  {
+    "name": "frbsf_news.xlsx",
+    "url": "https://www.frbsf.org/wp-content/uploads/news_sentiment_data.xlsx?2026-10-28",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 418998,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "490859ac711143c362c31db4e8d4ecf83e2f525c804d12910c14401540ee9e4a",
+    "seconds": 5.0
+  },
+  {
+    "name": "baker_latest.xlsx",
+    "url": "https://rigcount.bakerhughes.com/static-files/1caeb91a-d6e3-4ddd-a21d-9701ee447ffd",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 7304927,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "e5ed31f88e214161262b60bdf707317c0b3c25a6c1efeba84aae99ee0636bd61",
+    "seconds": 7.94
+  },
+  {
+    "name": "h15_all.zip",
+    "url": "https://www.federalreserve.gov/datadownload/Output.aspx?rel=H15&filetype=zip",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 4286577,
+    "content_type": "application/x-zip-compressed",
+    "sha256": "6d818606670f86075cd546dfc8d52263806d5c69f15bc9879b31f02169ea8901",
+    "seconds": 8.21
+  },
+  {
+    "name": "nbs_september.html",
+    "url": "https://www.stats.gov.cn/zwfwck/sjfb/202609/t20260930_1965449.html",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 186255,
+    "content_type": "text/html",
+    "sha256": "047cf98e1029862267438906eafa9d6f4aa7a0653d2c5857b1d37b7707df813e",
+    "seconds": 8.03
+  },
+  {
+    "name": "sg_iip_current_page.html",
+    "url": "https://data.gov.sg/datasets/d_72143a0db0e53efcde53308edf487364/view",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 3601843,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "7ce25d9593fcfacb902a0429658fd5feb588ee1692bd30363e88060cd9819e39",
+    "seconds": 7.36
+  }
+]

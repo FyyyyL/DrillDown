@@ -1,0 +1,26 @@
+[
+  {
+    "name": "singstat_local.json",
+    "url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M451041",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "seconds": 8.77
+  },
+  {
+    "name": "singstat_reexports.json",
+    "url": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M451091",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "seconds": 9.15
+  },
+  {
+    "name": "sg_iip_metadata.json",
+    "url": "https://api-production.data.gov.sg/v2/public/api/datasets/d_72143a0db0e53efcde53308edf487364/metadata",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 116029,
+    "content_type": "application/json",
+    "sha256": "238b425d5352c7d0dd13585da08ef2ce8978184bca57778d3d50c0e1dbb00841",
+    "seconds": 4.93
+  }
+]

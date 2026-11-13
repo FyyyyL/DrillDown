@@ -1,0 +1,443 @@
+[
+  {
+    "name": "fred_baa.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y&cosd=2026-09-01&coed=2026-10-23",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.71
+  },
+  {
+    "name": "fred_dollar.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS&cosd=2026-09-01&coed=2026-10-23",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.72
+  },
+  {
+    "name": "fed_dollar.html",
+    "url": "https://www.federalreserve.gov/releases/h10/summary/jrxwtfb_nb.htm",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 894489,
+    "content_type": "text/html",
+    "sha256": "8ea7ea32f6cb3023c9a952db330ca2d54563f787eb37b8fe39d0df43a0799bfe",
+    "seconds": 4.96
+  },
+  {
+    "name": "eia_ng.xls",
+    "url": "https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDd.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 295936,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "d59e1fad5ee8875621cff0a6cd165205c3d39f56bfbf2d014a1c1ea6c0568c43",
+    "seconds": 6.24
+  },
+  {
+    "name": "eia_futures.xls",
+    "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_FUT_S1_D.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 3019264,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "6c9145fe96f64b9750ab11dcd7e58e1621458d0c2388f2391f4f4b1d4de4d6b2",
+    "seconds": 6.29
+  },
+  {
+    "name": "eia_spot.xls",
+    "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_SPT_S1_D.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 3398144,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "8c8cb9e12243358bd2489a6f7fac872bbe4673929196e3f6d85a6f6cb7338256",
+    "seconds": 6.44
+  },
+  {
+    "name": "cboe_vix.csv",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 474196,
+    "content_type": "text/csv",
+    "sha256": "6da7f149324ec456c80f6d7e96c90b5d3bcaa3d0f6a4274f7840542db9809265",
+    "seconds": 9.06
+  },
+  {
+    "name": "fred_baa.html",
+    "url": "https://fred.stlouisfed.org/data/BAA10Y",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "seconds": 4.38
+  },
+  {
+    "name": "cboe_ovx.csv",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 90377,
+    "content_type": "text/csv",
+    "sha256": "632285cda1b161520626f0ba588f6f7649e2fbf1fdfd3971d07be693c834fd48",
+    "seconds": 9.12
+  },
+  {
+    "name": "treasury_nominal.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 16796,
+    "content_type": "text/csv; charset=UTF-8",
+    "sha256": "7eb8494d3f36efef53017dcb1c22548fdabaca3a1aac8a25424eef13d693398d",
+    "seconds": 4.5
+  },
+  {
+    "name": "treasury_real.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 7458,
+    "content_type": "text/csv; charset=UTF-8",
+    "sha256": "f3e8ac6ca13c239ca41a1cf085c4dc03c1980e85a754566bf70b2bc36c3e4a4d",
+    "seconds": 4.38
+  },
+  {
+    "name": "wb_gdp.zip",
+    "url": "https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.KD.ZG?downloadformat=csv",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 140759,
+    "content_type": "application/zip",
+    "sha256": "71a6c8c55c94dfb7095cc940e4a7e38975bab64e5f7869007583078fe66d589f",
+    "seconds": 3.37
+  },
+  {
+    "name": "cftc_2026.zip",
+    "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2026.zip",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 2028941,
+    "content_type": "application/zip",
+    "sha256": "131a1a6d909481633425609b6563f0257a36a57427fec070910e23e8297551c3",
+    "seconds": 3.82
+  },
+  {
+    "name": "cftc_announcements.html",
+    "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 47782,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "5f620b18697a3c045fee41b3b6f70ffbab384116f6ddad31aaab223d7bdee345",
+    "seconds": 3.79
+  },
+  {
+    "name": "baker_page.html",
+    "url": "https://rigcount.bakerhughes.com/na-rig-count",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 27018,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "3838f4335d0f105453fcea5b5f1b9d61c6df25247b332ad12d3c6048cd9c9d5b",
+    "seconds": 3.97
+  },
+  {
+    "name": "baker_recent.xlsx",
+    "url": "https://rigcount.bakerhughes.com/static-files/4046319f-adb5-4a22-acc1-879558c3d986",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 7296393,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "a6ee19b23324b96546e5af3de8ab141845399e2850876b3a389048ecc25e693b",
+    "seconds": 4.17
+  },
+  {
+    "name": "frbsf_page.html",
+    "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/daily-news-sentiment-index/",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 112742,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "1dc0724dab622f328c0b4a61ba4ec2cc32be4a6a573015e64d462357da7d7a02",
+    "seconds": 4.44
+  },
+  {
+    "name": "wb_monthly.xlsx",
+    "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 586099,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154",
+    "seconds": 7.69
+  },
+  {
+    "name": "gpr_daily.xls",
+    "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 3274752,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "a4cecd9b807b1cbf3db92e7a8087aaa23dafeb76b92f10b882cbde015cbed9bb",
+    "seconds": 1.2
+  },
+  {
+    "name": "fed_ip.txt",
+    "url": "https://www.federalreserve.gov/releases/g17/ipdisk/ip_sa.txt",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 2752696,
+    "content_type": "text/plain",
+    "sha256": "fb8545c19fc209938e97fb1315f554711efa619451a515fa136bbf12aef00741",
+    "seconds": 7.8
+  },
+  {
+    "name": "gpr_page.html",
+    "url": "https://www.matteoiacoviello.com/gpr.htm",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 11877514,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "8a88ae7a76b02f670d15ba560c8ef186233625ba478e5c06205a0a13bdd6b273",
+    "seconds": 4.79
+  },
+  {
+    "name": "F012.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WCESTUS1w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 130048,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "824b7722ec09bd4b85837747d141f689838efedda92f545c0751f3d271b0464b",
+    "seconds": 2.85
+  },
+  {
+    "name": "F014.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/W_EPC0_SAX_YCUOK_MBBLw.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 76800,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "2ad2b776fa7f6e9281591b8a469abc1d47f0a454a14b1a7df90068f9e5e67536",
+    "seconds": 2.76
+  },
+  {
+    "name": "eia_archive.html",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 175197,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "2a1eee3accad77e8561f205dc7b5e963769ce1d3f4bd77a689d99e651a9334bb",
+    "seconds": 3.07
+  },
+  {
+    "name": "F016.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WCRRIUS2w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 130048,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "9062326cbed3e356cc319993fbf98cac12c751f18df6163f9dbfc687d8423d54",
+    "seconds": 2.58
+  },
+  {
+    "name": "steo.xlsx",
+    "url": "https://www.eia.gov/outlooks/steo/xls/STEO_m.xlsx",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 1098385,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "54989362410da4aff5673580396380c3a8f4f111fa6d01c6d4fab05ef90efbf4",
+    "seconds": 4.24
+  },
+  {
+    "name": "jodi_page.html",
+    "url": "https://www.jodidata.org/oil/database/data-downloads.aspx",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 32660,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "f2c0d26e9550c618b7daffb0d70ba3b2cb6b838b3dd77c5669d1ee700eddff78",
+    "seconds": 4.58
+  },
+  {
+    "name": "jodi_primary.zip",
+    "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/world_primary_csv.zip",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 23625568,
+    "content_type": "application/x-zip-compressed",
+    "sha256": "b155ac07238ba601fd2b3b26c86419593c7248ea84f0d884dad0ac6456ccbf7b",
+    "seconds": 5.64
+  },
+  {
+    "name": "F055.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WGTSTUS1w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 113152,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "3a22508ee3b6a1a12a9e4e04b08c6ebea1b934571fc545c956856a68e7f428f7",
+    "seconds": 4.03
+  },
+  {
+    "name": "F046.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WCRFPUS2w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 129536,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "849d4db7f569dd0a6ab34ff206b73120ae7249ed65a2e62c72aed5361bc5c004",
+    "seconds": 4.14
+  },
+  {
+    "name": "F018.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WRPUPUS2w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 111104,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "dfc6fb939b3b973ae6d6e1773b65860c865e0af339bb6620eaf4889d1a2ee548",
+    "seconds": 4.15
+  },
+  {
+    "name": "F056.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WDISTUS1w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 130048,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "0614523ad8ecd2e230ef3267bc1f99a4e71a5591b50f9ce82c4a7fccec0891aa",
+    "seconds": 4.04
+  },
+  {
+    "name": "F075.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WCSSTUS1w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 130048,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "da8d79fe063786986a27299dbe4f86a608e6453e04591355407247d30951f813",
+    "seconds": 2.13
+  },
+  {
+    "name": "F074.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WCRNTUS2w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 86016,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "3e0f2f98b857276954c368181cc298e6e2d168acdbbbdaa1bbeda468070b195a",
+    "seconds": 3.55
+  },
+  {
+    "name": "F017.xls",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/WPULEUS3w.xls",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 111104,
+    "content_type": "application/vnd.ms-excel",
+    "sha256": "94df81c37206d9724260a500186a0ac2381bcb2cc7a96965905beccec9403a04",
+    "seconds": 4.31
+  },
+  {
+    "name": "nbs_index.html",
+    "url": "https://www.stats.gov.cn/sj/zxfb/",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 72810,
+    "content_type": "text/html",
+    "sha256": "1c17523ff6631c642b299eb57a69aa0feb88141de59514bd6d686f2662b0dcea",
+    "seconds": 10.31
+  },
+  {
+    "name": "sg_bunker.json",
+    "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_89d2874dad74a273270369334f1e7d28&limit=10000",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 21217,
+    "content_type": "application/json",
+    "sha256": "7cfeb3294a819d5defcfe557ec3440928939acc8781327f8f6b61bf63396c407",
+    "seconds": 5.3
+  },
+  {
+    "name": "sg_iip.json",
+    "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72143a0db0e53efcde53308edf487364&limit=10000",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 234477,
+    "content_type": "application/json",
+    "sha256": "34fd8e99b091ce6f4b22cd0dd5632435fc52de206101aa66e471192120b3a7f7",
+    "seconds": 6.47
+  },
+  {
+    "name": "steo_COPR_OPECPLUS.json",
+    "url": "https://api.eia.gov/v2/steo/data/?api_key=DEMO_KEY&frequency=monthly&data%5B0%5D=value&facets%5BseriesId%5D%5B%5D=COPR_OPECPLUS&start=2026-07&end=2026-09&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=12",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 933,
+    "content_type": "application/json",
+    "sha256": "e32c225e78595ace2a01e2faddc569b00b1170e5fcc53a769d9f2c6247d5c3cc",
+    "seconds": 4.12
+  },
+  {
+    "name": "steo_COPS_OPEC.json",
+    "url": "https://api.eia.gov/v2/steo/data/?api_key=DEMO_KEY&frequency=monthly&data%5B0%5D=value&facets%5BseriesId%5D%5B%5D=COPS_OPEC&start=2026-07&end=2026-09&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=12",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 1000,
+    "content_type": "application/json",
+    "sha256": "c3992f51a0ae583914c51bbedd2f0ce0a6f0a33e857f9992dedf2a9f7bdee9f3",
+    "seconds": 1.77
+  },
+  {
+    "name": "sg_reexports.json",
+    "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_ccaae92652c42740829ab17013a698c2&limit=10000",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 318541,
+    "content_type": "application/json",
+    "sha256": "984c34a3fd977d972dec3725bdaa7f4d91aeca18050436ba33235992e1eb905d",
+    "seconds": 7.3
+  },
+  {
+    "name": "sg_local.json",
+    "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_cd6aa1f04c5b371af6229049b255ebfe&limit=10000",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 417478,
+    "content_type": "application/json",
+    "sha256": "ee47ecf6683a4e5a7652edc099c97d4272d06e5984d0176b25060972dfeb3c59",
+    "seconds": 7.67
+  },
+  {
+    "name": "gold.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?period1=1788220800&period2=1792800000&interval=1d",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 4628,
+    "content_type": "application/json;charset=utf-8",
+    "sha256": "1c54125868ceb59e38a00a8353c20e276e72329c7216369fdc648ed07fe88c92",
+    "seconds": 7.64
+  },
+  {
+    "name": "sp500.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1788220800&period2=1792800000&interval=1d",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 5072,
+    "content_type": "application/json;charset=utf-8",
+    "sha256": "ca261b03beb8a1b5bb73dbdbb9ad2a5d8b1a119bc5dac7487c9300ea34084672",
+    "seconds": 7.71
+  },
+  {
+    "name": "sg_bunker_types.json",
+    "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_4f5abbf4486bf8e52bbed3be56dde562&limit=10000",
+    "status": "ok",
+    "http_status": 200,
+    "bytes": 540482,
+    "content_type": "application/json",
+    "sha256": "be12c0c2c4274359d0772a8fb9d0e6dcc059bdb7b60173733e1385ef88847054",
+    "seconds": 7.99
+  }
+]

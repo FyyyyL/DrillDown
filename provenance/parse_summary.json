@@ -1,0 +1,533 @@
+{
+  "fields": [
+    {
+      "field_id": "WTI",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F001",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F002",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F003",
+      "source_checked": true,
+      "provider": "eia_futures.xls",
+      "latest_reference_at_cutoff": "2024-04-05",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2024-04-05"
+    },
+    {
+      "field_id": "F004",
+      "source_checked": true,
+      "provider": "eia_futures.xls",
+      "latest_reference_at_cutoff": "2024-04-05",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2024-04-05"
+    },
+    {
+      "field_id": "F005",
+      "source_checked": true,
+      "provider": "fed_dollar.html",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F006",
+      "source_checked": true,
+      "provider": "cboe_vix.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F007",
+      "source_checked": true,
+      "provider": "cboe_ovx.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F008",
+      "source_checked": true,
+      "provider": "derived_same_reference_date",
+      "latest_reference_at_cutoff": "2024-04-05",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2024-04-05"
+    },
+    {
+      "field_id": "F009",
+      "source_checked": true,
+      "provider": "derived_same_reference_date",
+      "latest_reference_at_cutoff": "2024-04-05",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2024-04-05"
+    },
+    {
+      "field_id": "F010",
+      "source_checked": true,
+      "provider": "derived_same_reference_date",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F011",
+      "source_checked": true,
+      "provider": "derived_same_reference_date",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F012",
+      "source_checked": true,
+      "provider": "F012.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F014",
+      "source_checked": true,
+      "provider": "F014.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F016",
+      "source_checked": true,
+      "provider": "F016.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F017",
+      "source_checked": true,
+      "provider": "F017.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F018",
+      "source_checked": true,
+      "provider": "F018.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F019",
+      "source_checked": true,
+      "provider": "sp500.json",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F020",
+      "source_checked": true,
+      "provider": "treasury_nominal.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F021",
+      "source_checked": true,
+      "provider": "treasury_nominal.csv + treasury_real.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F022",
+      "source_checked": true,
+      "provider": "gold.json",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F027",
+      "source_checked": true,
+      "provider": "sg_local.json",
+      "latest_reference_at_cutoff": "2026-08-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-08-31"
+    },
+    {
+      "field_id": "F028",
+      "source_checked": true,
+      "provider": "sg_local.json + sg_reexports.json",
+      "latest_reference_at_cutoff": "2026-08-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-08-31"
+    },
+    {
+      "field_id": "F029",
+      "source_checked": true,
+      "provider": "sg_iip.json",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F030",
+      "source_checked": true,
+      "provider": "sg_bunker.json",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F031",
+      "source_checked": true,
+      "provider": "sg_bunker_types.json",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F038",
+      "source_checked": true,
+      "provider": "derived_same_reference_date",
+      "latest_reference_at_cutoff": "2024-04-05",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2024-04-05"
+    },
+    {
+      "field_id": "F039",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F040",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F041",
+      "source_checked": true,
+      "provider": "eia_spot.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F042",
+      "source_checked": true,
+      "provider": "eia_ng.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 17,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F043",
+      "source_checked": true,
+      "provider": "wb_monthly.xlsx",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F044",
+      "source_checked": true,
+      "provider": "wb_monthly.xlsx",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F045",
+      "source_checked": true,
+      "provider": "wb_monthly.xlsx",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F046",
+      "source_checked": true,
+      "provider": "F046.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F047",
+      "source_checked": true,
+      "provider": "steo_COPR_OPECPLUS.json",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F048",
+      "source_checked": true,
+      "provider": "baker_latest.xlsx",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F049",
+      "source_checked": true,
+      "provider": "steo_COPS_OPEC.json",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F053",
+      "source_checked": true,
+      "provider": "fed_ip.txt",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F054",
+      "source_checked": true,
+      "provider": "nbs_september.html",
+      "latest_reference_at_cutoff": "2026-09-30",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-09-30"
+    },
+    {
+      "field_id": "F055",
+      "source_checked": true,
+      "provider": "F055.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F056",
+      "source_checked": true,
+      "provider": "F056.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F058",
+      "source_checked": true,
+      "provider": "cftc_2026.zip",
+      "latest_reference_at_cutoff": "2026-10-20",
+      "october_reference_n": 3,
+      "fresh_download_last_reference": "2026-10-20"
+    },
+    {
+      "field_id": "F059",
+      "source_checked": true,
+      "provider": "cftc_2026.zip",
+      "latest_reference_at_cutoff": "2026-10-20",
+      "october_reference_n": 3,
+      "fresh_download_last_reference": "2026-10-20"
+    },
+    {
+      "field_id": "F060",
+      "source_checked": true,
+      "provider": "cftc_2026.zip",
+      "latest_reference_at_cutoff": "2026-10-20",
+      "october_reference_n": 3,
+      "fresh_download_last_reference": "2026-10-20"
+    },
+    {
+      "field_id": "F061",
+      "source_checked": true,
+      "provider": "cftc_2026.zip",
+      "latest_reference_at_cutoff": "2026-10-20",
+      "october_reference_n": 3,
+      "fresh_download_last_reference": "2026-10-20"
+    },
+    {
+      "field_id": "F062",
+      "source_checked": true,
+      "provider": "frbsf_news.xlsx",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 23,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F063",
+      "source_checked": true,
+      "provider": "gpr_daily.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 23,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F064",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_BRA",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_CHN",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_DEU",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_FRA",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_GBR",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_IND",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_ITA",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_JPN",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_RUS",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F064_WLD",
+      "source_checked": true,
+      "provider": "wb_gdp.zip",
+      "latest_reference_at_cutoff": "2025-12-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2025-12-31"
+    },
+    {
+      "field_id": "F065",
+      "source_checked": true,
+      "provider": "treasury_nominal.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F066",
+      "source_checked": true,
+      "provider": "treasury_nominal.csv",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F067",
+      "source_checked": true,
+      "provider": "fred_baa_web_extracted.json: official FRED table via web retrieval",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 16,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F068",
+      "source_checked": true,
+      "provider": "jodi_2026.csv",
+      "latest_reference_at_cutoff": "2026-08-31",
+      "october_reference_n": 0,
+      "fresh_download_last_reference": "2026-08-31"
+    },
+    {
+      "field_id": "F074",
+      "source_checked": true,
+      "provider": "F074.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F075",
+      "source_checked": true,
+      "provider": "F075.xls",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 4,
+      "fresh_download_last_reference": "2026-10-23"
+    },
+    {
+      "field_id": "F076",
+      "source_checked": true,
+      "provider": "fixed original ARMA-GARCH parameters applied causally to updated F063",
+      "latest_reference_at_cutoff": "2026-10-23",
+      "october_reference_n": 23,
+      "fresh_download_last_reference": "2026-10-23"
+    }
+  ],
+  "issues": []
+}
